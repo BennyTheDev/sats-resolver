@@ -1,5 +1,12 @@
 {
   "name": "Sats Domain Resolver",
+  "icons": {
+    "16": "icon16.png",
+    "19": "icon19.png",
+    "38": "icon38.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
   "action": {},
   "manifest_version": 3,
   "version": "0.1",
