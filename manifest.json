@@ -1,0 +1,19 @@
+{
+  "name": "Sats Domain Resolver",
+  "action": {},
+  "manifest_version": 3,
+  "version": "0.1",
+  "description": "Resolves an Ordinals .sats domain to its specified content location.",
+  "permissions": [
+    "webRequest",
+    "tabs",
+    "storage"
+  ],
+  "host_permissions": [
+    "*://*.sats/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_page": "options.html"
+}
